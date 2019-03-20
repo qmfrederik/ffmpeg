@@ -19,7 +19,7 @@ steps:
     dockerfile: docker-images/4.1/alpine/Dockerfile
     tags: 4.1-alpine-arm64
     build_args:
-      - MAKEFLAGS="-j96"
+      - MAKEFLAGS=-j96
 ---
 kind: pipeline
 name: 4.1-centos-arm64
@@ -41,7 +41,7 @@ steps:
     dockerfile: docker-images/4.1/centos/Dockerfile
     tags: 4.1-centos-arm64
     build_args:
-      - MAKEFLAGS="-j96"
+      - MAKEFLAGS=-j96
 ---
 kind: pipeline
 name: 4.1-scratch-arm64
@@ -63,7 +63,7 @@ steps:
     dockerfile: docker-images/4.1/scratch/Dockerfile
     tags: 4.1-scratch-arm64
     build_args:
-      - MAKEFLAGS="-j96"
+      - MAKEFLAGS=-j96
 ---
 kind: pipeline
 name: 4.1-arm64
@@ -85,7 +85,7 @@ steps:
     dockerfile: docker-images/4.1/ubuntu/Dockerfile
     tags: 4.1-arm64
     build_args:
-      - MAKEFLAGS="-j96"
+      - MAKEFLAGS=-j96
 ---
 kind: pipeline
 name: 4.1-alpine
