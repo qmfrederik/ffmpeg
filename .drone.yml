@@ -42,7 +42,7 @@ steps:
       - MAKEFLAGS="-j96"
 ---
 kind: pipeline
-name: 4.1-sratch-arm64
+name: 4.1-scratch-arm64
 
 platform:
   os: linux
