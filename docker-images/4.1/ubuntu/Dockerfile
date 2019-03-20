@@ -19,16 +19,16 @@ FROM base as build
 ARG        PKG_CONFIG_PATH=/opt/ffmpeg/lib/pkgconfig
 ARG        LD_LIBRARY_PATH=/opt/ffmpeg/lib
 ARG        PREFIX=/opt/ffmpeg
-ARG        MAKEFLAGS="-j92"
+ARG        MAKEFLAGS="-j2"
 
-ENV         FFMPEG_VERSION=4.1     \
+ENV         FFMPEG_VERSION=4.1.1     \
             FDKAAC_VERSION=0.1.5      \
-            LAME_VERSION=3.100       \
+            LAME_VERSION=3.100        \
             LIBASS_VERSION=0.13.7     \
             OGG_VERSION=1.3.2         \
             OPENCOREAMR_VERSION=0.1.5 \
             OPUS_VERSION=1.2          \
-            OPENJPEG_VERSION=2.3.0    \
+            OPENJPEG_VERSION=2.1.2    \
             THEORA_VERSION=1.1.1      \
             VORBIS_VERSION=1.3.5      \
             VPX_VERSION=1.8.0         \
