@@ -15,6 +15,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/alpine/Dockerfile
     tags: 4.1-alpine-arm64
     build_args:
@@ -36,6 +37,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/centos/Dockerfile
     tags: 4.1-centos-arm64
     build_args:
@@ -57,6 +59,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/scratch/Dockerfile
     tags: 4.1-scratch-arm64
     build_args:
@@ -78,6 +81,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/ubuntu/Dockerfile
     tags: 4.1-arm64
     build_args:
@@ -99,6 +103,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/alpine/Dockerfile
     tags: 4.1-alpine
     build_args:
@@ -120,6 +125,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/centos/Dockerfile
     tags: 4.1-centos
     build_args:
@@ -141,6 +147,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/scratch/Dockerfile
     tags: 4.1-scratch
     build_args:
@@ -162,6 +169,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/ubuntu/Dockerfile
     tags: 4.1
     build_args:
@@ -183,6 +191,7 @@ steps:
     password:
       from_secret: docker_password
     repo: quay.io/quamotion/ffmpeg
+    registry: quay.io
     dockerfile: docker-images/4.1/vaapi/Dockerfile
     tags: 4.1-vaapi
     build_args:
