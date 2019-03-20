@@ -4,7 +4,7 @@
 #
 #
 
-FROM        alpine:3.9 AS build
+FROM        alpine:3.8 AS build
 
 WORKDIR     /tmp/workdir
 
